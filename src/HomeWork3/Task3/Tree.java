@@ -1,7 +1,7 @@
 package HomeWork3.Task3;
 
-public abstract class Tree implements AbilitySmell, HasBumps{
-    public abstract void abilitySmell();
+public abstract class Tree {
+
 
     public abstract void hasBumps();
 

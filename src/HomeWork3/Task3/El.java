@@ -1,6 +1,6 @@
 package HomeWork3.Task3;
 
-public class El  extends Tree{
+public class El  extends Tree implements AbilitySmell{
 
     @Override
     public void abilitySmell() {
