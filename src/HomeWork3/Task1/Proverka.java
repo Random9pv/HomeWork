@@ -5,7 +5,7 @@ public class Proverka {
 
         Computer comp = new Computer();
         LenovoComputer lenovoComputer = new LenovoComputer();
-        comp.on();
+        comp.loadSystem();
         lenovoComputer.loadSystem();
         comp.work();
         comp.of();
