@@ -29,9 +29,11 @@ public class CarShop {
 
         } catch (Exception a) {
             System.out.println(getPriceCar() + "\n" + nowInformation() + "\n" + nextAvto());
-
         }
-
+    }
+    public static void main(String[] args) {
+        CarShop carShop= new CarShop(new Car(5000));
+        carShop.dekorator();
     }
 
 }
